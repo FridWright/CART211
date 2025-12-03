@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behavioural Surplus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Hamburger Button -->
+    <div class="hamburger">&#9776;</div>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="monopolizedcanvas.html">The Monopolized Canvas</a>
+            <a href="algorithm.html">Algorithmic Conformity</a>
+            <a href="artistsrole.html">The Artist's Role</a>
+            <a href="surplus.html">Behavioural Surplus</a>
+            <a href="convspriv.html">Convenience vs Privacy</a>
+            <a href="strategy.html">Strategies of Expansion</a>
+            <a href="history.html">Historical Roots</a>
+            <a href="consequences.html">Consequences</a>
+            <a href="references.html">References</a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section class="portfolio">
+            <h1>Behavioural Surplus</h1>
+            <p><i>When data collected goes beyond what is strictly necessary for a product or service.</i></p>
+
+            <div class="portfolio-grid">
+                <figure class="portfolio-item">
+                    <img src="assets/mono.PNG" alt="monocule">
+                    <figcaption>
+                        <p>Corporate marketing departments have continuously upgraded their techniques for studying
+                            and knowing customers long
+                            before the internet.</p>
+                        <p>While surveillance isn't new, digital technology has dramatically expanded its scope and
+                            sophistication.</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="portfolio-item">
+                    <img src="assets/bino.PNG" alt="binoculars">
+                    <figcaption>
+                        <p>Surveillance capitalists claim human experience as <i>free raw material for the
+                                taking,</i> bypassing individual rights or awareness.</p>
+                        <p>This collected user data is the raw material used to predict and sell future
+                            behaviours.</p>
+                    </figcaption>
+                </figure>
+
+                <figure class="portfolio-item">
+                    <img src="assets/moneyman.PNG" alt="money man">
+                    <figcaption>
+                        <p>Users are not the "customers" of surveillance capitalism; instead, they are the sources
+                            of <i>crucial surplus</i>. </p>
+                        <p>The products and services offered by surveillance capitalism are
+                            merely the "hooks" that lure users into extractive operations.</p>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- Reflection Section -->
+        <section class="reflection">
+            <h2>...</h2>
+            <p>“Industrial capitalism transformed nature’s raw materials into commodities, and surveillance capitalism
+                lays its claims
+                to the stuff of human nature for a new commodity invention.”</p>
+            <p>“We are no longer the subjects of value realization. Nor are we … the ‘product’ of Google’s sales.
+                Instead, we are the
+                objects from which raw materials are extracted and expropriated for Google’s prediction factories.”</p>
+            <p>- Shoshana Zuboff (2019)</p>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2025 Frid Wright CART 211</p>
+        </footer>
+    </div>
+
+    <!-- Hamburger Script -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const sidebar = document.querySelector('.sidebar');
+
+        hamburger.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+</body>
+
+</html>
